@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className=" relative w-screen max-w-screen overflow-x-hidden bg-black text-white font-[family-name:var(--font-geist-sans)]">
+    <div  className="home w-screen text-white bg-black">
       <HomePage/>
     </div>
   );

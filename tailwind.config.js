@@ -11,8 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         "black":"#000000",
-        "white":"#ffffff"
+        "white":"#ffffff",
+        "black-800":"#111111"
       },
+      fontSize:{
+        "4xl":["236px", "210px"]
+      }
     },
   },
   plugins: [],
