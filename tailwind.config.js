@@ -12,6 +12,7 @@ module.exports = {
         foreground: "var(--foreground)",
         "black":"#000000",
         "white":"#ffffff",
+        "white-200":"#f5f5f5",
         "black-800":"#111111"
       },
       fontSize:{

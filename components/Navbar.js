@@ -4,7 +4,7 @@ import asset0 from "../app/assets/asset 0.png";
 
 export default function Navbar() {
   return (
-    <div className="px-6 relative bg-black text-white">
+    <div className="px-8 relative bg-black text-white">
       <nav className="flex-between container py-[46px]">
         <div>
           <Image src={asset0} alt="logo" width={74} className="logo"/>
