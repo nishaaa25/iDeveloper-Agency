@@ -9,10 +9,10 @@ export default function ServicesCard({ imgUrl, title, desc }) {
             <Image
               src={imgUrl}
               alt="service-card-image"
-              className="rounded-md w-[90px] h-[90px] object-cover"
+              className="rounded-md w-[80px] h-[80px] object-cover"
             />
           </div>
-          <p className="uppercase text-semibold text-2xl">{title}</p>
+          <p className="uppercase text-medium text-2xl">{title}</p>
         </div>
         <p className="text-lg">{desc}</p>
       </div>

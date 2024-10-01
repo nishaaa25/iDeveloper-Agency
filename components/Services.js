@@ -6,7 +6,7 @@ import asset9 from "../app/assets/asset 9.jpeg";
 
 export default function Services() {
   return (
-    <div className="w-11/12 py-[60px] relative mx-auto grid grid-cols-2 justify-items-center px-6 gap-8">
+    <div className="w-11/12 py-10 relative mx-auto grid grid-cols-2 justify-items-center px-6 gap-8">
       <div className="flex flex-col gap-8">
         <ServicesCard
           imgUrl={asset6}
@@ -18,7 +18,7 @@ export default function Services() {
           title="Marketing"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis, dolor sed consectetur gravida."
         />
-        <p className="text-lg text-white-200 text-opacity-90">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis, dolor sed consectetur gravida.</p>
+        <p className="text-lg text-white-200 text-opacity-90 w-[80%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis, dolor sed consectetur gravida.</p>
       </div>
       <div className="flex flex-col gap-8">
         <div>
