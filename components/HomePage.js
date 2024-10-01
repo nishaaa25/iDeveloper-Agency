@@ -5,22 +5,22 @@ import Spline from "@splinetool/react-spline/next";
 
 export default function HomePage() {
   return (
-    <>
-      <div className="container h-[85vh] overflow-hidden relative">
+    <div >
+      <div className="container h-[85vh] overflow-hidden">
         <div className="absolute top-8 px-24 z-0">
           <div className="relative rounded-full border border-white border-opacity-20 transform rotate-180">
             <div>
               <Image
                 src={asset21}
                 alt="fingerprint"
-                className="w-full h-full"
+                className="w-full h-full opacity-70 "
               />
             </div>
           </div>
         </div>
-        <div className="relative z-10 w-full py-[100px]">
+        <div className="relative z-10 w-full py-[120px]">
           <p className="uppercase text-sm tracking-[2px] pl-4">Welcome</p>
-          <h1 className="text-4xl font-semibold">iDESIGNER</h1>
+          <h1 className="text-4xl font-semibold tracking-tight">iDEVLOPER</h1>
           <div className="bg-white inline-block p-4 rounded-full mt-4 absolute right-10">
             <Image src={asset1} alt="right-arrowicon" />
           </div>
@@ -32,6 +32,6 @@ export default function HomePage() {
           style={{ width: "140vw", height: "100vh" }} // Adjust sizes as needed
         />
       </div>
-    </>
+    </div>
   );
 }

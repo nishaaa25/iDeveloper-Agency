@@ -25,6 +25,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.custom-shadow{
+  box-shadow: rgb(0, 0, 0) 0px -30px 40px 20px;}
+
 @layer components {
   .container {
     @apply relative w-10/12 overflow-x-hidden mx-auto ;
