@@ -14,10 +14,13 @@ module.exports = {
         "white":"#ffffff",
         "white-200":"#f5f5f5",
         "black-800":"#111111",
-        "gray-400":"#050505"
+        "black-600":"#d1d1d1",
+        "gray-400":"#292929"
       },
       fontSize:{
-        "4xl":["236px", "210px"]
+        "4xl":["236px", "210px"],
+        "3xl":["119px","85px"],
+        "2xl":["42px", "51px"]
       }
     },
   },
