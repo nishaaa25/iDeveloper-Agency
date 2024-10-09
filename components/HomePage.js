@@ -1,7 +1,11 @@
 import Image from "next/image";
 import asset1 from "../app/assets/asset 1.svg";
 import asset21 from "../app/assets/asset 21.svg";
-import Spline from "@splinetool/react-spline/next";
+import dynamic from 'next/dynamic';
+
+// const Spline = dynamic(() => import('@splinetool/react-spline/next'), {
+//   ssr: false, // Ensure it's not server-side rendered
+// });
 
 export default function HomePage() {
   return (
@@ -27,10 +31,10 @@ export default function HomePage() {
         </div>
       </div>
       <div className="absolute inset-0 top-6 flex items-center justify-center z-20">
-        <Spline
+        {/* <Spline
           scene="https://prod.spline.design/kjAKukDdv3oZxT02/scene.splinecode"
           style={{ width: "140vw", height: "100vh" }} // Adjust sizes as needed
-        />
+        /> */}
       </div>
     </div>
   );

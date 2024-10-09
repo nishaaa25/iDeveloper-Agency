@@ -1,6 +1,6 @@
-import asset14 from "../app/assets/asset 14.jpeg";
-import asset15 from "../app/assets/asset 15.jpeg";
-import asset16 from "../app/assets/asset 16.jpeg";
+import asset14 from "./app/assets/asset 14.jpeg";
+import asset15 from "./app/assets/asset 15.jpeg";
+import asset16 from "./app/assets/asset 16.jpeg";
 
 export const testimonials = [
     {
@@ -17,7 +17,7 @@ export const testimonials = [
     },
     {
         text: "I couldn't be happier with the results of our collaboration. He took our vision and brought it to life.",
-        imgUrl: asset14,
+        imgUrl: asset16,
         name: "Yashavi James",
         desg: "Designer"
     }

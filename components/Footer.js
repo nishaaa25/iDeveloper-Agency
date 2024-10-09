@@ -6,7 +6,7 @@ import asset20 from "../app/assets/asset 20.png";
 
 export default function Footer() {
   return (
-    <div className="container overflow-hidden pt-20 pb-8 px-10 ">
+    <div className="container overflow-hidden pt-10 pb-8 px-10 ">
       <div className="w-full relative grid grid-cols-4 justify-items-center pb-16">
         <div className="flex flex-col gap-6">
           <Image src={asset0} alt="logo" width={70} />
