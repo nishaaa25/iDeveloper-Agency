@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className="container overflow-hidden pt-20 pb-8 px-10 ">
       <div className="w-full relative grid grid-cols-4 justify-items-center pb-16">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-6">
           <Image src={asset0} alt="logo" width={70} />
           <div className="flex justify-start items-center gap-2">
             <div className="border border-white rounded-full bg-white">

@@ -1,6 +1,7 @@
 import Companies from "@/components/Companies";
 import Counter from "@/components/Counter";
 import Footer from "@/components/Footer";
+import GetInTouch from "@/components/GetInTouch";
 import HomePage from "@/components/HomePage";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -17,7 +18,8 @@ export default function Home() {
       <Services/>
       <Works/>
       <Counter/>
-      <Testimonials/>
+      <Testimonials/>      
+      <GetInTouch/>
       <Footer/>
     </div>
   );
