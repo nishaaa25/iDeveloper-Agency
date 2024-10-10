@@ -1,10 +1,11 @@
+'use client';
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function ProjectCard({ imgUrl, title }) {
   return (
-    <div className="relative h-full flex flex-col place-items-start gap-4">
+    <motion.div className="relative h-full flex flex-col place-items-start gap-4" initial={{opacity: 0}}>
       <Image
         src={imgUrl}
         alt="projectimg"
@@ -25,6 +26,6 @@ export default function ProjectCard({ imgUrl, title }) {
           IDENTITY
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 }
