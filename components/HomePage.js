@@ -1,15 +1,13 @@
+'use client';
 import Image from "next/image";
 import asset1 from "../app/assets/asset 1.svg";
 import asset21 from "../app/assets/asset 21.svg";
-import dynamic from 'next/dynamic';
-
-// const Spline = dynamic(() => import('@splinetool/react-spline/next'), {
-//   ssr: false, // Ensure it's not server-side rendered
-// });
+import Spline from "@splinetool/react-spline";
+import { motion } from "framer-motion";
 
 export default function HomePage() {
   return (
-    <div >
+    <div>
       <div className="container h-[85vh] overflow-hidden">
         <div className="absolute top-8 px-24 z-0">
           <div className="relative rounded-full border border-white border-opacity-20 transform rotate-180">
@@ -17,7 +15,7 @@ export default function HomePage() {
               <Image
                 src={asset21}
                 alt="fingerprint"
-                className="w-full h-full opacity-70 "
+                className="w-full h-full opacity-70"
               />
             </div>
           </div>
@@ -31,10 +29,10 @@ export default function HomePage() {
         </div>
       </div>
       <div className="absolute inset-0 top-6 flex items-center justify-center z-20">
-        {/* <Spline
-          scene="https://prod.spline.design/kjAKukDdv3oZxT02/scene.splinecode"
+        <Spline
+          scene="https://prod.spline.design/VuMsOVtmA0FF8Rb7/scene.splinecode "
           style={{ width: "140vw", height: "100vh" }} // Adjust sizes as needed
-        /> */}
+        />
       </div>
     </div>
   );
