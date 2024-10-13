@@ -28,12 +28,12 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      {/* <div className="absolute inset-0 top-6 flex items-center justify-center z-20">
+      <div className="absolute inset-0 top-6 flex items-center justify-center z-20">
         <Spline
           scene="https://prod.spline.design/VuMsOVtmA0FF8Rb7/scene.splinecode "
           style={{ width: "140vw", height: "100vh" }} // Adjust sizes as needed
         />
-      </div> */}
+      </div>
     </div>
   );
 }

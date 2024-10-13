@@ -13,7 +13,7 @@ export default function Navbar() {
         initial="hidden"
         whileInView="visible"
         variants={variant}
-        viewport={{ once: true }}
+    
       >
         <div>
           <Image src={asset0} alt="logo" width={74} className="logo" />

@@ -15,7 +15,6 @@ export default function Companies() {
         initial="hidden"
         whileInView="visible"
         variants={companiesVariants}
-        viewport={{ once: true }}
       >
         <motion.div variants={ChildrenVariants}>
           <Image src={asset2} className="w-[120px] lg:w-[140px]" alt="companies-logo" />

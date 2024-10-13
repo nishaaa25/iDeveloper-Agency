@@ -15,7 +15,7 @@ export default function Services() {
         initial={{ opacity: 0, x: "-100px" }}
         whileInView={{ opacity: 1, x: "0px" }}
         transition={{ duration: 0.4, delay: 0.8 }}
-        viewport={{ once: true }}
+        
       >
         <ServicesCard
           imgUrl={asset6}
@@ -35,7 +35,7 @@ export default function Services() {
       <motion.div className="flex flex-col gap-8"  initial={{ opacity: 0, x: "100px" }}
           whileInView={{ opacity: 1, x: "0px" }}
           transition={{ duration: 0.4, delay: 0.8}}
-          viewport={{ once: true }}>
+          >
         <div>
           <p className="uppercase text-sm tracking-[2px] pb-8 pl-2">
             creative solutions

@@ -1,13 +1,20 @@
+"use client";
 import Image from "next/image";
 import asset0 from "../app/assets/asset 0.png";
 import asset18 from "../app/assets/asset 18.png";
 import asset19 from "../app/assets/asset 19.png";
 import asset20 from "../app/assets/asset 20.png";
+import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
     <div className="container overflow-hidden pt-10 pb-8 px-10 ">
-      <div className="w-full relative grid grid-cols-4 justify-items-center pb-16">
+      <motion.div
+        className="w-full relative grid grid-cols-4 justify-items-center pb-16"
+        initial={{ opacity: 0, y: "120px" }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3, duration: 0.3 }}
+      >
         <div className="flex flex-col gap-6">
           <Image src={asset0} alt="logo" width={70} />
           <div className="flex justify-start items-center gap-2">
@@ -54,12 +61,17 @@ export default function Footer() {
             <li className="tracking-[1px]">Changelog</li>
           </ul>
         </div>
-      </div>
+      </motion.div>
       <hr />
-      <div className="pt-8 relative text-sm flex-between ">
+      <motion.div
+        className="pt-8 relative text-sm flex-between "
+        initial={{ opacity: 0, y: "60px" }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3, duration: 0.3 }}
+      >
         <p>© 2024 iDEVELOPER. All Rights Reserved.</p>
         <p>Made with ♡ by Nisha🦋</p>
-      </div>
+      </motion.div>
     </div>
   );
 }
