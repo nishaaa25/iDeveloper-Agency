@@ -21,14 +21,14 @@ export default function GetInTouch() {
         </motion.p>
         <div>
           <motion.p
-            className="text-xxl font-medium mx-3 uppercase"
+            className="text-3xl xl:text-xxl pb-2 xl:pb-0 font-medium mx-3 uppercase"
             variants={textVariants}
           >
             Get In
           </motion.p>
           <motion.p
             variants={textVariants}
-            className="text-xxl font-medium mx-3 uppercase outline-text mt-2"
+            className="text-3xl xl:text-xxl font-medium mx-3 uppercase outline-text mt-2"
           >
             touch
           </motion.p>

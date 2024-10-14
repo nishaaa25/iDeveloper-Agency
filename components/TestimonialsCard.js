@@ -7,7 +7,7 @@ export default function TestimonialsCard({ imgUrl, text, name, desg }) {
   return (
     <div className="flex-center text-center gap-6 flex-col text-white">
       <Image src={asset13} alt="icon" width={100} />
-      <p className="text-2xl font-medium capitalize">{text}</p>
+      <p className="text-[28px] lg:text-2xl font-medium capitalize">{text}</p>
       <Image src={imgUrl} alt="icon" width={70} className="rounded-full" />
       <div>
         <p className="uppercase text-sm tracking-[2px] font-medium">{name}</p>
