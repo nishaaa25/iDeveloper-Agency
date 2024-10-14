@@ -2,14 +2,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import asset0 from "../app/assets/asset 0.png";
-import { easeIn, easeOut, motion } from "framer-motion";
+import asset24 from "../app/assets/asset 24.svg";
+import { motion } from "framer-motion";
 import { variant } from "@/Animation";
 
 export default function Navbar() {
   return (
     <div className="px-8 relative bg-black text-white">
       <motion.nav
-        className="flex-between container py-[46px]"
+        className="flex-between w-full relative lg:container py-[46px]"
         initial="hidden"
         whileInView="visible"
         variants={variant}
@@ -18,7 +19,7 @@ export default function Navbar() {
         <div>
           <Image src={asset0} alt="logo" width={74} className="logo" />
         </div>
-        <ul className="flex-center">
+        <ul className="hidden lg:flex-center">
           <li>
             <Link href="#" className="uppercase text-base tracking-[1px] px-6">
               <span>Home</span> <span className="hidden">Home</span>
@@ -40,6 +41,9 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
+        <div className="lg:hidden">
+          <Image src={asset24} alt="menu-bar" width={26} height={26} />
+        </div>
       </motion.nav>
     </div>
   );

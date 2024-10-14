@@ -16,7 +16,6 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .outline-text {
   color: #ffffff;
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */

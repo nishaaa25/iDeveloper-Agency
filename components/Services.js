@@ -9,7 +9,7 @@ import { variant } from "@/Animation";
 
 export default function Services() {
   return (
-    <div className="w-11/12 py-10 relative mx-auto flex-col-reverse flex-center lg:flex-row px-6 gap-3 lg:gap-8 text-center lg:text-start">
+    <div className="w-full md:w-9/12 lg:w-11/12 py-10 relative mx-auto flex-col-reverse flex-center lg:flex-row px-6 gap-3 lg:gap-8 text-center lg:text-start">
       <motion.div
         className="flex flex-col gap-3 lg:gap-8 w-full relative lg:w-1/2"
         initial={{ opacity: 0, x: "-100px" }}
